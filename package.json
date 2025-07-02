@@ -1,0 +1,21 @@
+{
+  "name": "PRIME-BOT-PANEL-TELEGRAM",
+  "version": "1.0.0",
+  "description": "Script Telegram Bot Panel",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "npm install && node index.js"
+  },
+  "author": "WARUNGERIK",
+  "license": "ISC",
+  "dependencies": {
+    "node-telegram-bot-api": "latest",
+    "node-fetch": "latest",
+    "archiver": "latest",
+    "pino": "latest"
+  },
+  "devDependencies": {
+    "pino-pretty": "latest"
+  }
+}
