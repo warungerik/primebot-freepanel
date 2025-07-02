@@ -1,21 +1,19 @@
 {
-  "name": "PRIME-BOT-PANEL-TELEGRAM",
-  "version": "1.0.0",
-  "description": "Script Telegram Bot Panel",
-  "main": "index.js",
+  "name": "prime-bot-panel-vercel",
+  "version": "2.0.0",
+  "description": "Script",
+  "main": "api/webhook.js",
   "type": "module",
   "scripts": {
-    "start": "npm install && node index.js"
+    "start": "node api/webhook.js"
   },
   "author": "WARUNGERIK",
   "license": "ISC",
   "dependencies": {
-    "node-telegram-bot-api": "latest",
-    "node-fetch": "latest",
+    "@supabase/supabase-js": "^2.39.0",
     "archiver": "latest",
-    "pino": "latest"
-  },
-  "devDependencies": {
-    "pino-pretty": "latest"
+    "dotenv": "^16.3.1",
+    "node-fetch": "latest",
+    "node-telegram-bot-api": "latest"
   }
 }
